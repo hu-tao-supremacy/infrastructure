@@ -1,0 +1,14 @@
+{
+  "name": "google-cloud",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@pulumi/gcp": "^4.11.0",
+    "@pulumi/kubernetes": "^2.8.1",
+    "@pulumi/pulumi": "^2.20.0",
+    "@pulumi/random": "^3.0.2",
+    "@types/ejs": "^3.0.6",
+    "ejs": "^3.1.6"
+  }
+}

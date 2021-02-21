@@ -1,0 +1,7 @@
+name: hu-tao-supremacy
+description: A Google Kubernetes Engine (GKE) cluster
+runtime: nodejs
+template:
+  config:
+    gcp:project:
+    gcp:zone:
