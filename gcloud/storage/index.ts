@@ -3,6 +3,7 @@ import * as gcp from "@pulumi/gcp";
 import { named } from "../config";
 
 export const storageBucket = new gcp.storage.Bucket("storage.onepass.app", {
+  name: "storage.onepass.app",
   cors: [
     {
       maxAgeSeconds: 3600,
